@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusLab/lab3/lab3_decoder/simulation/qsim
+vhard_block
+Z1 !s110 1730350694
+!i10b 1
+!s100 ad?9>g0HPcXH3ejWRLcOE2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I[BH:^RGHKAD7LeT^R>dd`1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1730350692
+Z5 8lab3_decoder.vo
+Z6 Flab3_decoder.vo
+!i122 2
+L0 625 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1730350694.000000
+Z9 !s107 lab3_decoder.vo|
+Z10 !s90 -work|work|lab3_decoder.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vSchem1_1
+R1
+!i10b 1
+!s100 0Dzo@iTYze@F^N07`Y4Gl1
+R2
+IZaW;DSbi6=_hFiUZlEZ6b1
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 32 592
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@schem1_1
+vSchem1_1_vlg_vec_tst
+!s110 1730350695
+!i10b 1
+!s100 dlNEA6>N^;^]bNPCFT<l>3
+R2
+IAJP?UoR?Z?e?JizLe7<c30
+R3
+R0
+w1730350691
+8lab3_decoder.vwf.vt
+Flab3_decoder.vwf.vt
+!i122 3
+L0 30 126
+R7
+r1
+!s85 0
+31
+R8
+!s107 lab3_decoder.vwf.vt|
+!s90 -work|work|lab3_decoder.vwf.vt|
+!i113 1
+R11
+R12
+n@schem1_1_vlg_vec_tst

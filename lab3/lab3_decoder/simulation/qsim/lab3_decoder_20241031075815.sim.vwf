@@ -1,0 +1,944 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 1000.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 10.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("check1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("check2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("check3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("input1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("input2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("input4")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("out0")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out0_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out1_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out2_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out3")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out3_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out4")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out4_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out5")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out5_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out6")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out6_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out7")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+SIGNAL("out7_2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("check1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 33.333;
+			LEVEL 0 FOR 0.01;
+		}
+	}
+}
+
+TRANSITION_LIST("check2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 38.462;
+			LEVEL 1 FOR 38.461;
+			LEVEL 0 FOR 0.001;
+		}
+	}
+}
+
+TRANSITION_LIST("check3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 45.455;
+			LEVEL 1 FOR 45.454;
+			LEVEL 0 FOR 0.001;
+		}
+	}
+}
+
+TRANSITION_LIST("input1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 55.556;
+			LEVEL 1 FOR 55.555;
+			LEVEL 0 FOR 0.001;
+		}
+	}
+}
+
+TRANSITION_LIST("input2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 71.429;
+			LEVEL 1 FOR 71.428;
+			LEVEL 0 FOR 0.001;
+		}
+	}
+}
+
+TRANSITION_LIST("input4")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 100.0;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 100.0;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 100.0;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 100.0;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 100.0;
+		}
+	}
+}
+
+TRANSITION_LIST("out0")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 5.129;
+			LEVEL 0 FOR 423.076;
+			LEVEL 1 FOR 5.124;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 0.005;
+			LEVEL 0 FOR 500.0;
+		}
+	}
+}
+
+TRANSITION_LIST("out0_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 5.129;
+			LEVEL 0 FOR 423.076;
+			LEVEL 1 FOR 5.124;
+			LEVEL 0 FOR 33.333;
+			LEVEL 1 FOR 0.005;
+			LEVEL 0 FOR 500.0;
+		}
+	}
+}
+
+TRANSITION_LIST("out1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 636.363;
+			LEVEL 1 FOR 6.494;
+			LEVEL 0 FOR 214.285;
+			LEVEL 1 FOR 6.494;
+			LEVEL 0 FOR 136.364;
+		}
+	}
+}
+
+TRANSITION_LIST("out1_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 636.363;
+			LEVEL 1 FOR 6.494;
+			LEVEL 0 FOR 214.285;
+			LEVEL 1 FOR 6.494;
+			LEVEL 0 FOR 136.364;
+		}
+	}
+}
+
+TRANSITION_LIST("out2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 1000.0;
+		}
+	}
+}
+
+TRANSITION_LIST("out2_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 1000.0;
+		}
+	}
+}
+
+TRANSITION_LIST("out3")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 99.999;
+			LEVEL 1 FOR 0.001;
+			LEVEL 0 FOR 542.857;
+			LEVEL 1 FOR 10.989;
+			LEVEL 0 FOR 192.307;
+			LEVEL 1 FOR 10.989;
+			LEVEL 0 FOR 142.858;
+		}
+	}
+}
+
+TRANSITION_LIST("out3_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 99.999;
+			LEVEL 1 FOR 0.001;
+			LEVEL 0 FOR 542.857;
+			LEVEL 1 FOR 10.989;
+			LEVEL 0 FOR 192.307;
+			LEVEL 1 FOR 10.989;
+			LEVEL 0 FOR 142.858;
+		}
+	}
+}
+
+TRANSITION_LIST("out4")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 571.428;
+			LEVEL 1 FOR 5.495;
+			LEVEL 0 FOR 346.153;
+			LEVEL 1 FOR 5.495;
+			LEVEL 0 FOR 71.429;
+		}
+	}
+}
+
+TRANSITION_LIST("out4_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 571.428;
+			LEVEL 1 FOR 5.495;
+			LEVEL 0 FOR 346.153;
+			LEVEL 1 FOR 5.495;
+			LEVEL 0 FOR 71.429;
+		}
+	}
+}
+
+TRANSITION_LIST("out5")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 181.818;
+			LEVEL 1 FOR 10.49;
+			LEVEL 0 FOR 115.384;
+			LEVEL 1 FOR 10.49;
+			LEVEL 0 FOR 409.09;
+			LEVEL 1 FOR 3.497;
+			LEVEL 0 FOR 38.461;
+			LEVEL 1 FOR 3.497;
+			LEVEL 0 FOR 227.273;
+		}
+	}
+}
+
+TRANSITION_LIST("out5_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 181.818;
+			LEVEL 1 FOR 10.49;
+			LEVEL 0 FOR 115.384;
+			LEVEL 1 FOR 10.49;
+			LEVEL 0 FOR 409.09;
+			LEVEL 1 FOR 3.497;
+			LEVEL 0 FOR 38.461;
+			LEVEL 1 FOR 3.497;
+			LEVEL 0 FOR 227.273;
+		}
+	}
+}
+
+TRANSITION_LIST("out6")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 111.111;
+			LEVEL 1 FOR 4.274;
+			LEVEL 0 FOR 269.23;
+			LEVEL 1 FOR 4.274;
+			LEVEL 0 FOR 177.772;
+			LEVEL 1 FOR 4.767;
+			LEVEL 0 FOR 357.143;
+			LEVEL 1 FOR 4.753;
+			LEVEL 0 FOR 66.676;
+		}
+	}
+}
+
+TRANSITION_LIST("out6_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 111.111;
+			LEVEL 1 FOR 4.274;
+			LEVEL 0 FOR 269.23;
+			LEVEL 1 FOR 4.274;
+			LEVEL 0 FOR 177.772;
+			LEVEL 1 FOR 4.767;
+			LEVEL 0 FOR 357.143;
+			LEVEL 1 FOR 4.753;
+			LEVEL 0 FOR 66.676;
+		}
+	}
+}
+
+TRANSITION_LIST("out7")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 11.111;
+			LEVEL 0 FOR 277.778;
+			LEVEL 1 FOR 11.107;
+			LEVEL 0 FOR 600.004;
+		}
+	}
+}
+
+TRANSITION_LIST("out7_2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 100.0;
+			LEVEL 1 FOR 11.111;
+			LEVEL 0 FOR 277.778;
+			LEVEL 1 FOR 11.107;
+			LEVEL 0 FOR 600.004;
+		}
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "check1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "check2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "check3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "input1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 3;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "input2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 4;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "input4";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 5;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out0";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 6;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out0_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 7;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 8;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out1_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 9;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 10;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out2_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 11;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out3";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 12;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out3_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 13;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out4";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 14;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out4_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 15;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out5";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 16;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out5_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 17;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out6";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 18;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out6_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 19;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out7";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 20;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "out7_2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 21;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;

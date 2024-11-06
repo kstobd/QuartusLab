@@ -1,0 +1,86 @@
+|Schem1_1
+out0 <= decoder_Verilog:inst.y0
+input1 => decoder_Verilog:inst.x1
+input1 => decode_VHDL:inst2.x1
+input2 => decoder_Verilog:inst.x2
+input2 => decode_VHDL:inst2.x2
+input4 => decoder_Verilog:inst.x4
+input4 => decode_VHDL:inst2.x4
+check1 => decoder_Verilog:inst.c1
+check1 => decode_VHDL:inst2.c1
+check2 => decoder_Verilog:inst.c2
+check2 => decode_VHDL:inst2.c2
+check3 => decoder_Verilog:inst.c3
+check3 => decode_VHDL:inst2.c3
+out1 <= decoder_Verilog:inst.y1
+out2 <= decoder_Verilog:inst.y2
+out3 <= decoder_Verilog:inst.y3
+out4 <= decoder_Verilog:inst.y4
+out5 <= decoder_Verilog:inst.y5
+out6 <= decoder_Verilog:inst.y6
+out7 <= decoder_Verilog:inst.y7
+out0_2 <= decode_VHDL:inst2.y0
+out1_2 <= decode_VHDL:inst2.y1
+out2_2 <= decode_VHDL:inst2.y2
+out3_2 <= decode_VHDL:inst2.y3
+out4_2 <= decode_VHDL:inst2.y4
+out5_2 <= decode_VHDL:inst2.y5
+out6_2 <= decode_VHDL:inst2.y6
+out7_2 <= decode_VHDL:inst2.y7
+
+
+|Schem1_1|decoder_Verilog:inst
+x1 => Decoder0.IN0
+x2 => Decoder0.IN1
+x4 => Decoder0.IN2
+c1 => enable.IN0
+c2 => enable.IN1
+c3 => enable.IN1
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= y4.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= y5.DB_MAX_OUTPUT_PORT_TYPE
+y6 <= y6.DB_MAX_OUTPUT_PORT_TYPE
+y7 <= y7.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Schem1_1|decode_VHDL:inst2
+x1 => Mux0.IN10
+x1 => Mux1.IN10
+x1 => Mux2.IN10
+x1 => Mux3.IN10
+x1 => Mux4.IN10
+x1 => Mux5.IN10
+x1 => Mux6.IN10
+x1 => Mux7.IN10
+x2 => Mux0.IN9
+x2 => Mux1.IN9
+x2 => Mux2.IN9
+x2 => Mux3.IN9
+x2 => Mux4.IN9
+x2 => Mux5.IN9
+x2 => Mux6.IN9
+x2 => Mux7.IN9
+x4 => Mux0.IN8
+x4 => Mux1.IN8
+x4 => Mux2.IN8
+x4 => Mux3.IN8
+x4 => Mux4.IN8
+x4 => Mux5.IN8
+x4 => Mux6.IN8
+x4 => Mux7.IN8
+c1 => enable.IN0
+c2 => enable.IN1
+c3 => enable.IN1
+y0 <= y0.DB_MAX_OUTPUT_PORT_TYPE
+y1 <= y1.DB_MAX_OUTPUT_PORT_TYPE
+y2 <= y2.DB_MAX_OUTPUT_PORT_TYPE
+y3 <= y3.DB_MAX_OUTPUT_PORT_TYPE
+y4 <= y4.DB_MAX_OUTPUT_PORT_TYPE
+y5 <= y5.DB_MAX_OUTPUT_PORT_TYPE
+y6 <= y6.DB_MAX_OUTPUT_PORT_TYPE
+y7 <= y7.DB_MAX_OUTPUT_PORT_TYPE
+
+

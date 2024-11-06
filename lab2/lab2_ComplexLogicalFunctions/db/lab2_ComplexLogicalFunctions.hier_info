@@ -1,0 +1,45 @@
+|lab2_ComplexLogicalFunctions
+pin_name9 <= ComplexFunc_Verilog:inst.y
+pin_name1 => ComplexFunc_Verilog:inst.x1
+pin_name1 => ComplexFunc_VHDL:inst2.x1
+pin_name2 => ComplexFunc_Verilog:inst.x2
+pin_name2 => ComplexFunc_VHDL:inst2.x2
+pin_name3 => ComplexFunc_Verilog:inst.x3
+pin_name3 => ComplexFunc_VHDL:inst2.x3
+pin_name4 => ComplexFunc_Verilog:inst.x4
+pin_name4 => ComplexFunc_VHDL:inst2.x4
+pin_name5 => ComplexFunc_Verilog:inst.x5
+pin_name5 => ComplexFunc_VHDL:inst2.x5
+pin_name6 => ComplexFunc_Verilog:inst.x6
+pin_name6 => ComplexFunc_VHDL:inst2.x6
+pin_name7 => ComplexFunc_Verilog:inst.x7
+pin_name7 => ComplexFunc_VHDL:inst2.x7
+pin_name8 => ComplexFunc_Verilog:inst.x8
+pin_name8 => ComplexFunc_VHDL:inst2.x8
+pin_name10 <= ComplexFunc_VHDL:inst2.y
+
+
+|lab2_ComplexLogicalFunctions|ComplexFunc_Verilog:inst
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+x4 => y.IN1
+x5 => y.IN0
+x6 => y.IN1
+x7 => y.IN1
+x8 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab2_ComplexLogicalFunctions|ComplexFunc_VHDL:inst2
+x1 => y.IN0
+x2 => y.IN1
+x3 => y.IN1
+x4 => y.IN1
+x5 => y.IN0
+x6 => y.IN1
+x7 => y.IN1
+x8 => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

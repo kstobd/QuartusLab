@@ -1,0 +1,16 @@
+Fitter Status : Successful - Wed Nov 06 22:39:06 2024
+Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+Revision Name : lab4_encoder
+Top-level Entity Name : lab4_encoder_block
+Family : Cyclone IV E
+Device : EP4CE6E22C8L
+Timing Models : Final
+Total logic elements : 12 / 6,272 ( < 1 % )
+    Total combinational functions : 12 / 6,272 ( < 1 % )
+    Dedicated logic registers : 0 / 6,272 ( 0 % )
+Total registers : 0
+Total pins : 19 / 92 ( 21 % )
+Total virtual pins : 0
+Total memory bits : 0 / 276,480 ( 0 % )
+Embedded Multiplier 9-bit elements : 0 / 30 ( 0 % )
+Total PLLs : 0 / 2 ( 0 % )

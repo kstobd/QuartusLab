@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out_VHDL",
+					"strict" : false
+				},
+				{
+					"name" : "out_Verilog",
+					"strict" : false
+				},
+				{
+					"name" : "in_A",
+					"strict" : false
+				},
+				{
+					"name" : "in_B",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusLab/lab1_conjunctor/simulation/qsim
+vhard_block
+Z1 !s110 1729768112
+!i10b 1
+!s100 9YZ0GV`YK[ggz@8J?7FfS2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I>7>:Y01NnYDX6N8[n74lO3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1729768106
+Z5 8lab1_conjunctor.vo
+Z6 Flab1_conjunctor.vo
+!i122 0
+L0 141 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1729768112.000000
+Z9 !s107 lab1_conjunctor.vo|
+Z10 !s90 -work|work|lab1_conjunctor.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vSchem_1_1
+R1
+!i10b 1
+!s100 HV1AHCfmI9gc@1D7R<_Za3
+R2
+I_ISPE_EY_]?@eaK]AP@4H0
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 108
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+n@schem_1_1
+vSchem_1_1_vlg_vec_tst
+!s110 1729768114
+!i10b 1
+!s100 ]9b=VBNJATznRhe7TUQ0M0
+R2
+I>K>L4Dl1m`RCz:TON]PKO1
+R3
+R0
+w1729768104
+8Otchet_1.vwf.vt
+FOtchet_1.vwf.vt
+!i122 1
+L0 30 38
+R7
+r1
+!s85 0
+31
+!s108 1729768113.000000
+!s107 Otchet_1.vwf.vt|
+!s90 -work|work|Otchet_1.vwf.vt|
+!i113 1
+R11
+R12
+n@schem_1_1_vlg_vec_tst

@@ -1,0 +1,21 @@
+|Schem_1_1
+out_VHDL <= AndGate_VHDL:inst1.Y
+in_A => AndGate_VHDL:inst1.A
+in_A => AndGate_Verilog:inst2.A
+in_B => AndGate_VHDL:inst1.B
+in_B => AndGate_Verilog:inst2.B
+out_Verilog <= AndGate_Verilog:inst2.Y
+
+
+|Schem_1_1|AndGate_VHDL:inst1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Schem_1_1|AndGate_Verilog:inst2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
