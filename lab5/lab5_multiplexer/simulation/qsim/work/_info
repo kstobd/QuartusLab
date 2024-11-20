@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusLab/lab5/lab5_multiplexer/simulation/qsim
+vhard_block
+Z1 !s110 1731261407
+!i10b 1
+!s100 P?:dm3QoH8mo3k2Z6DJ`72
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Iok<8U1T:Kl35Xiz[F`h533
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1731261405
+Z5 8lab5_multiplexer.vo
+Z6 Flab5_multiplexer.vo
+!i122 2
+L0 391 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1731261407.000000
+Z9 !s107 lab5_multiplexer.vo|
+Z10 !s90 -work|work|lab5_multiplexer.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlab5_multiplexer
+R1
+!i10b 1
+!s100 _1[V23z@JimniM;0?Tc;m2
+R2
+IlYO`?=9A77CPoeROh`[Cz1
+R3
+R0
+R4
+R5
+R6
+!i122 2
+L0 32 358
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlab5_multiplexer_vlg_vec_tst
+R1
+!i10b 1
+!s100 VPBVEK>Xc7[fB=HE3_DNB0
+R2
+I0@MN:e3hPC75P=?;a@ebL0
+R3
+R0
+w1731261402
+8lab5_multiplexer.vwf.vt
+Flab5_multiplexer.vwf.vt
+!i122 3
+L0 30 178
+R7
+r1
+!s85 0
+31
+R8
+!s107 lab5_multiplexer.vwf.vt|
+!s90 -work|work|lab5_multiplexer.vwf.vt|
+!i113 1
+R11
+R12

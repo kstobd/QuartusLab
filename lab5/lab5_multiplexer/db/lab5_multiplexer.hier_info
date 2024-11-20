@@ -1,0 +1,89 @@
+|lab5_multiplexer
+output1_1 <= multiplexer_VHDL:inst.Y0
+input0 => multiplexer_VHDL:inst.X0
+input0 => multiplexer_Verilog:inst2.X0
+input1 => multiplexer_VHDL:inst.X1
+input1 => multiplexer_Verilog:inst2.X1
+input2 => multiplexer_VHDL:inst.X2
+input2 => multiplexer_Verilog:inst2.X2
+input3 => multiplexer_VHDL:inst.X3
+input3 => multiplexer_Verilog:inst2.X3
+input4 => multiplexer_VHDL:inst.X4
+input4 => multiplexer_Verilog:inst2.X4
+input5 => multiplexer_VHDL:inst.X5
+input5 => multiplexer_Verilog:inst2.X5
+input6 => multiplexer_VHDL:inst.X6
+input6 => multiplexer_Verilog:inst2.X6
+input7 => multiplexer_VHDL:inst.X7
+input7 => multiplexer_Verilog:inst2.X7
+select1 => multiplexer_VHDL:inst.A1
+select1 => multiplexer_Verilog:inst2.A1
+select2 => multiplexer_VHDL:inst.A2
+select2 => multiplexer_Verilog:inst2.A2
+select4 => multiplexer_VHDL:inst.A4
+select4 => multiplexer_Verilog:inst2.A4
+inputEZ => multiplexer_VHDL:inst.EZ
+inputEZ => multiplexer_Verilog:inst2.EZ
+output2_1 <= multiplexer_Verilog:inst2.Y0
+output1_2 <= multiplexer_VHDL:inst.Y1
+output2_2 <= multiplexer_Verilog:inst2.Y1
+
+
+|lab5_multiplexer|multiplexer_VHDL:inst
+X0 => Mux0.IN0
+X0 => Mux1.IN0
+X1 => Mux0.IN1
+X1 => Mux1.IN1
+X2 => Mux0.IN2
+X2 => Mux1.IN2
+X3 => Mux0.IN3
+X3 => Mux1.IN3
+X4 => Mux0.IN4
+X4 => Mux1.IN4
+X5 => Mux0.IN5
+X5 => Mux1.IN5
+X6 => Mux0.IN6
+X6 => Mux1.IN6
+X7 => Mux0.IN7
+X7 => Mux1.IN7
+A1 => Mux0.IN8
+A1 => Mux1.IN8
+A2 => Mux0.IN9
+A2 => Mux1.IN9
+A4 => Mux0.IN10
+A4 => Mux1.IN10
+EZ => Y1.OE
+EZ => Y0.OE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5_multiplexer|multiplexer_Verilog:inst2
+X0 => Mux0.IN0
+X0 => Mux1.IN0
+X1 => Mux0.IN1
+X1 => Mux1.IN1
+X2 => Mux0.IN2
+X2 => Mux1.IN2
+X3 => Mux0.IN3
+X3 => Mux1.IN3
+X4 => Mux0.IN4
+X4 => Mux1.IN4
+X5 => Mux0.IN5
+X5 => Mux1.IN5
+X6 => Mux0.IN6
+X6 => Mux1.IN6
+X7 => Mux0.IN7
+X7 => Mux1.IN7
+A1 => Mux0.IN8
+A1 => Mux1.IN8
+A2 => Mux0.IN9
+A2 => Mux1.IN9
+A4 => Mux0.IN10
+A4 => Mux1.IN10
+EZ => Y0.OE
+EZ => Y1.OE
+Y0 <= Y0.DB_MAX_OUTPUT_PORT_TYPE
+Y1 <= Y1.DB_MAX_OUTPUT_PORT_TYPE
+
+
