@@ -1,0 +1,77 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outGT_VHDL",
+					"strict" : false
+				},
+				{
+					"name" : "outLT_VHDL",
+					"strict" : false
+				},
+				{
+					"name" : "outEQ_VHDL",
+					"strict" : false
+				},
+				{
+					"name" : "outGT_Verilog",
+					"strict" : false
+				},
+				{
+					"name" : "outLT_Verilog",
+					"strict" : false
+				},
+				{
+					"name" : "outEQ_Verilog",
+					"strict" : false
+				},
+				{
+					"name" : "inGT",
+					"strict" : false
+				},
+				{
+					"name" : "inEq",
+					"strict" : false
+				},
+				{
+					"name" : "InA3",
+					"strict" : false
+				},
+				{
+					"name" : "InA2",
+					"strict" : false
+				},
+				{
+					"name" : "InB2",
+					"strict" : false
+				},
+				{
+					"name" : "InB3",
+					"strict" : false
+				},
+				{
+					"name" : "inA1",
+					"strict" : false
+				},
+				{
+					"name" : "inA0",
+					"strict" : false
+				},
+				{
+					"name" : "inB0",
+					"strict" : false
+				},
+				{
+					"name" : "inB1",
+					"strict" : false
+				},
+				{
+					"name" : "inLT",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

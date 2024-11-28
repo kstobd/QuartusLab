@@ -1,0 +1,33 @@
+# do lab6_digital_comparator.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:45:17 on Nov 28,2024
+# vlog -work work lab6_digital_comparator.vo 
+# -- Compiling module lab6_digital_comparator
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	lab6_digital_comparator
+# End time: 19:45:17 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:45:18 on Nov 28,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab6_digital_comparator_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab6_digital_comparator_vlg_vec_tst
+# End time: 19:45:18 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab6_digital_comparator_vlg_vec_tst 
+# Start time: 19:45:20 on Nov 28,2024
+# Loading work.lab6_digital_comparator_vlg_vec_tst
+# Loading work.lab6_digital_comparator
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#24
+# ** Note: $finish    : Waveform.vwf.vt(75)
+#    Time: 1 us  Iteration: 0  Instance: /lab6_digital_comparator_vlg_vec_tst
+# End time: 19:45:20 on Nov 28,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

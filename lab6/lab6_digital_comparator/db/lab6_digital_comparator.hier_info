@@ -1,0 +1,101 @@
+|lab6_digital_comparator
+outGT_VHDL <= comparator_VHDL:inst.GT_out
+inA0 => comparator_VHDL:inst.A0
+inA0 => comparator_Verilog:inst2.A0
+inA1 => comparator_VHDL:inst.A1
+inA1 => comparator_Verilog:inst2.A1
+InA2 => comparator_VHDL:inst.A2
+InA2 => comparator_Verilog:inst2.A2
+InA3 => comparator_VHDL:inst.A3
+InA3 => comparator_Verilog:inst2.A3
+inB0 => comparator_VHDL:inst.B0
+inB0 => comparator_Verilog:inst2.B0
+inB1 => comparator_VHDL:inst.B1
+inB1 => comparator_Verilog:inst2.B1
+InB2 => comparator_VHDL:inst.B2
+InB2 => comparator_Verilog:inst2.B2
+InB3 => comparator_VHDL:inst.B3
+InB3 => comparator_Verilog:inst2.B3
+inGT => comparator_VHDL:inst.GT_in
+inGT => comparator_Verilog:inst2.GT_in
+inLT => comparator_VHDL:inst.LT_in
+inLT => comparator_Verilog:inst2.LT_in
+inEq => comparator_VHDL:inst.EQ_in
+inEq => comparator_Verilog:inst2.EQ_in
+outLT_VHDL <= comparator_VHDL:inst.LT_out
+outEQ_VHDL <= comparator_VHDL:inst.EQ_out
+outGT_Verilog <= comparator_Verilog:inst2.GT_out
+outLT_Verilog <= comparator_Verilog:inst2.LT_out
+outEQ_Verilog <= comparator_Verilog:inst2.EQ_out
+
+
+|lab6_digital_comparator|comparator_VHDL:inst
+A0 => Equal0.IN0
+A0 => LessThan0.IN1
+A0 => LessThan1.IN1
+A1 => Equal0.IN1
+A1 => LessThan0.IN2
+A1 => LessThan1.IN2
+A2 => Equal0.IN2
+A2 => LessThan0.IN3
+A2 => LessThan1.IN3
+A3 => Equal0.IN3
+A3 => LessThan0.IN4
+A3 => LessThan1.IN4
+B0 => Equal0.IN4
+B0 => LessThan0.IN5
+B0 => LessThan1.IN5
+B1 => Equal0.IN5
+B1 => LessThan0.IN6
+B1 => LessThan1.IN6
+B2 => Equal0.IN6
+B2 => LessThan0.IN7
+B2 => LessThan1.IN7
+B3 => Equal0.IN7
+B3 => LessThan0.IN8
+B3 => LessThan1.IN8
+GT_in => process_0.IN0
+LT_in => process_0.IN0
+EQ_in => process_0.IN1
+EQ_in => process_0.IN1
+EQ_in => process_0.IN1
+GT_out <= GT_out.DB_MAX_OUTPUT_PORT_TYPE
+LT_out <= LT_out.DB_MAX_OUTPUT_PORT_TYPE
+EQ_out <= process_0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab6_digital_comparator|comparator_Verilog:inst2
+A0 => Equal0.IN0
+A0 => LessThan0.IN1
+A0 => LessThan1.IN1
+A1 => Equal0.IN1
+A1 => LessThan0.IN2
+A1 => LessThan1.IN2
+A2 => Equal0.IN2
+A2 => LessThan0.IN3
+A2 => LessThan1.IN3
+A3 => Equal0.IN3
+A3 => LessThan0.IN4
+A3 => LessThan1.IN4
+B0 => Equal0.IN4
+B0 => LessThan0.IN5
+B0 => LessThan1.IN5
+B1 => Equal0.IN5
+B1 => LessThan0.IN6
+B1 => LessThan1.IN6
+B2 => Equal0.IN6
+B2 => LessThan0.IN7
+B2 => LessThan1.IN7
+B3 => Equal0.IN7
+B3 => LessThan0.IN8
+B3 => LessThan1.IN8
+GT_in => always0.IN0
+LT_in => always0.IN0
+EQ_in => always0.IN1
+EQ_in => always0.IN1
+EQ_in => always0.IN1
+GT_out <= GT_out.DB_MAX_OUTPUT_PORT_TYPE
+LT_out <= LT_out.DB_MAX_OUTPUT_PORT_TYPE
+EQ_out <= always0.DB_MAX_OUTPUT_PORT_TYPE
+
+
