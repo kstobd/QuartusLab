@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/QuartusLab/lab7/lab7_adder/simulation/qsim
+vhard_block
+Z1 !s110 1733383455
+!i10b 1
+!s100 Wld@a?UTo=YXUzVec`z?S3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IFXPCdBj[V82Q=2hPem27H2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1733383444
+Z5 8lab7_adder.vo
+Z6 Flab7_adder.vo
+!i122 0
+L0 331 34
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1733383454.000000
+Z9 !s107 lab7_adder.vo|
+Z10 !s90 -work|work|lab7_adder.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlab7_adder
+!s110 1733383454
+!i10b 1
+!s100 ;k<e3c2CU489GF[FUz>Ve2
+R2
+I7icbP^JU_8MXAR=Ek@YB22
+R3
+R0
+R4
+R5
+R6
+!i122 0
+L0 32 298
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vlab7_adder_vlg_vec_tst
+R1
+!i10b 1
+!s100 LhAITe?iC1[Y8e<L]o[S:3
+R2
+IOVBK`4FKc]DiRAc]fiT>=3
+R3
+R0
+w1733383441
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 1
+L0 30 92
+R7
+r1
+!s85 0
+31
+!s108 1733383455.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R11
+R12

@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "out10_1",
+					"strict" : false
+				},
+				{
+					"name" : "out20_1",
+					"strict" : false
+				},
+				{
+					"name" : "out40_1",
+					"strict" : false
+				},
+				{
+					"name" : "out2_1",
+					"strict" : false
+				},
+				{
+					"name" : "out4_1",
+					"strict" : false
+				},
+				{
+					"name" : "out8_1",
+					"strict" : false
+				},
+				{
+					"name" : "out2_2",
+					"strict" : false
+				},
+				{
+					"name" : "out4_2",
+					"strict" : false
+				},
+				{
+					"name" : "out8_2",
+					"strict" : false
+				},
+				{
+					"name" : "out10_2",
+					"strict" : false
+				},
+				{
+					"name" : "out20_2",
+					"strict" : false
+				},
+				{
+					"name" : "out40_2",
+					"strict" : false
+				},
+				{
+					"name" : "inEO",
+					"strict" : false
+				},
+				{
+					"name" : "in2",
+					"strict" : false
+				},
+				{
+					"name" : "in4",
+					"strict" : false
+				},
+				{
+					"name" : "in8",
+					"strict" : false
+				},
+				{
+					"name" : "in16",
+					"strict" : false
+				},
+				{
+					"name" : "in32",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

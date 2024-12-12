@@ -1,0 +1,95 @@
+|lab8_code_converter
+out10_1 <= bcd_converter_VHDL:inst.BCD10
+in2 => bcd_converter_VHDL:inst.Bin2
+in2 => bcd_converter_Verilog:inst4.Bin2
+in4 => bcd_converter_VHDL:inst.Bin4
+in4 => bcd_converter_Verilog:inst4.Bin4
+in8 => bcd_converter_VHDL:inst.Bin8
+in8 => bcd_converter_Verilog:inst4.Bin8
+in16 => bcd_converter_VHDL:inst.Bin16
+in16 => bcd_converter_Verilog:inst4.Bin16
+in32 => bcd_converter_VHDL:inst.Bin32
+in32 => bcd_converter_Verilog:inst4.Bin32
+inEO => bcd_converter_VHDL:inst.EO
+inEO => bcd_converter_Verilog:inst4.EO
+out20_1 <= bcd_converter_VHDL:inst.BCD20
+out40_1 <= bcd_converter_VHDL:inst.BCD40
+out2_1 <= bcd_converter_VHDL:inst.BCD2
+out4_1 <= bcd_converter_VHDL:inst.BCD4
+out8_1 <= bcd_converter_VHDL:inst.BCD8
+out2_2 <= bcd_converter_Verilog:inst4.BCD2
+out4_2 <= bcd_converter_Verilog:inst4.BCD4
+out8_2 <= bcd_converter_Verilog:inst4.BCD8
+out10_2 <= bcd_converter_Verilog:inst4.BCD10
+out20_2 <= bcd_converter_Verilog:inst4.BCD20
+out40_2 <= bcd_converter_Verilog:inst4.BCD40
+
+
+|lab8_code_converter|bcd_converter_VHDL:inst
+Bin2 => Mux2.IN36
+Bin2 => Mux3.IN36
+Bin2 => Mux4.IN36
+Bin2 => Mux5.IN36
+Bin4 => Mux1.IN19
+Bin4 => Mux2.IN35
+Bin4 => Mux3.IN35
+Bin4 => Mux4.IN35
+Bin4 => Mux5.IN35
+Bin8 => Mux0.IN10
+Bin8 => Mux1.IN18
+Bin8 => Mux2.IN34
+Bin8 => Mux3.IN34
+Bin8 => Mux4.IN34
+Bin8 => Mux5.IN34
+Bin16 => Mux0.IN9
+Bin16 => Mux1.IN17
+Bin16 => Mux2.IN33
+Bin16 => Mux3.IN33
+Bin16 => Mux4.IN33
+Bin16 => Mux5.IN33
+Bin32 => Mux0.IN8
+Bin32 => Mux1.IN16
+Bin32 => Mux2.IN32
+Bin32 => Mux3.IN32
+Bin32 => Mux4.IN32
+Bin32 => Mux5.IN32
+EO => BCD2.OUTPUTSELECT
+EO => BCD4.OUTPUTSELECT
+EO => BCD8.OUTPUTSELECT
+EO => BCD10.OUTPUTSELECT
+EO => BCD20.OUTPUTSELECT
+EO => BCD40.OUTPUTSELECT
+EO => bcd_code[1].LATCH_ENABLE
+EO => bcd_code[2].LATCH_ENABLE
+EO => bcd_code[3].LATCH_ENABLE
+EO => bcd_code[4].LATCH_ENABLE
+EO => bcd_code[5].LATCH_ENABLE
+EO => bcd_code[0].LATCH_ENABLE
+BCD2 <= BCD2.DB_MAX_OUTPUT_PORT_TYPE
+BCD4 <= BCD4.DB_MAX_OUTPUT_PORT_TYPE
+BCD8 <= BCD8.DB_MAX_OUTPUT_PORT_TYPE
+BCD10 <= BCD10.DB_MAX_OUTPUT_PORT_TYPE
+BCD20 <= BCD20.DB_MAX_OUTPUT_PORT_TYPE
+BCD40 <= BCD40.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab8_code_converter|bcd_converter_Verilog:inst4
+Bin2 => Decoder0.IN0
+Bin4 => Decoder0.IN1
+Bin8 => Decoder0.IN2
+Bin16 => Decoder0.IN3
+Bin32 => Decoder0.IN4
+EO => BCD2.OUTPUTSELECT
+EO => BCD4.OUTPUTSELECT
+EO => BCD8.OUTPUTSELECT
+EO => BCD10.OUTPUTSELECT
+EO => BCD20.OUTPUTSELECT
+EO => BCD40.OUTPUTSELECT
+BCD2 <= BCD2.DB_MAX_OUTPUT_PORT_TYPE
+BCD4 <= BCD4.DB_MAX_OUTPUT_PORT_TYPE
+BCD8 <= BCD8.DB_MAX_OUTPUT_PORT_TYPE
+BCD10 <= BCD10.DB_MAX_OUTPUT_PORT_TYPE
+BCD20 <= BCD20.DB_MAX_OUTPUT_PORT_TYPE
+BCD40 <= BCD40.DB_MAX_OUTPUT_PORT_TYPE
+
+

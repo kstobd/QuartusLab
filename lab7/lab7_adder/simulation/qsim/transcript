@@ -1,0 +1,33 @@
+# do lab7_adder.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:24:14 on Dec 05,2024
+# vlog -work work lab7_adder.vo 
+# -- Compiling module lab7_adder
+# -- Compiling module hard_block
+# 
+# Top level modules:
+# 	lab7_adder
+# End time: 10:24:15 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:24:15 on Dec 05,2024
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab7_adder_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab7_adder_vlg_vec_tst
+# End time: 10:24:15 on Dec 05,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab7_adder_vlg_vec_tst 
+# Start time: 10:24:16 on Dec 05,2024
+# Loading work.lab7_adder_vlg_vec_tst
+# Loading work.lab7_adder
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# after#24
+# ** Note: $finish    : Waveform.vwf.vt(63)
+#    Time: 1 us  Iteration: 0  Instance: /lab7_adder_vlg_vec_tst
+# End time: 10:24:17 on Dec 05,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
